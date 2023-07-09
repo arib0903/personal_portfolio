@@ -1,0 +1,95 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: var(--z-modal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    opacity: 0;
+    visibility: hidden;
+    
+    
+}
+
+/* body{
+    overflow-y: hidden;
+} */
+ .active-modal{
+    transition: 0.5s;
+ }
+/* Modal.css */
+h1{
+    color:wheat;
+    margin-bottom: 15px;
+}
+/* Modal.css */
+
+.modal__technologies {
+    margin-top: 20px;
+}
+
+
+
+hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 10px 0;
+}
+
+.modal__technologies h5 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.modal__technologies .technology-icon {
+    font-size: 35px;
+        column-gap: 10px;
+        display: flex;
+            color: rgb(179, 167, 144);
+}
+
+.modal__content {
+    width: 500px;
+    position: relative;
+    background-color: #0d0d0d;
+        padding: 4.5rem 2.5rem 2.5rem;
+    border-radius: 1.5rem;
+}
+
+.modal__close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+    overflow-y: visible;
+}
+
+.modal.active-modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modalButton{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 10px;
+
+}
+
+/* Breakpoints */
+@media screen and (max-width: 576px) {
+    .modal__content {
+        padding: 4.5rem 1.5rem 2.5rem;
+    }
+
+    .services__modal-description {
+        padding: 0;
+    }
+}
