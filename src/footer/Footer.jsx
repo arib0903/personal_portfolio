@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <footer className="footer" id = "footer">
         <div className="footer__container container">
-            <h1 className="footer__title">Arib Mahboob</h1>
             <ul className="footer__list">
                 <li>
                     <a href="#about" className="footer__link">About</a>
