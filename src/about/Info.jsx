@@ -7,7 +7,7 @@ const Info = () => {
         <div className="about__box">
             <HiOutlineDesktopComputer className="about__icon" />
             <h3 className="about__title">Foodie!</h3>
-            <span className="about__subtitle">Sushi + Watermelon lover</span>
+            <span className="about__subtitle">Love Sushi + Watermelon </span>
         </div>
         <div className="about__box">
             <HiOutlineTerminal className="about__icon" />

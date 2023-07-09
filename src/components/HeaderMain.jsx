@@ -35,18 +35,20 @@ const HeaderMain = () => {
                                 <HiOutlineBadgeCheck className="nav__icon" />Skills
                             </a>
                         </li>
-                        <li className="nav__item">
-                            <a href="#qualification"  
-                            className= "nav__link " onClick={() => showMenu(!Toggle)}>
-                                <HiOutlineClipboardList className="nav__icon" />Edu/Exp
-                            </a>
-                        </li>
                         <li className="nav__item" style={{fontsize: "20px"}}>
                             <a href="#portfolio"  
                             className= "nav__link " onClick={() => showMenu(!Toggle)}>
                                 <HiOutlinePhotograph className="nav__icon" />Projects
                             </a>
                         </li>
+                        
+                        <li className="nav__item">
+                            <a href="#qualification"  
+                            className= "nav__link " onClick={() => showMenu(!Toggle)}>
+                                <HiOutlineClipboardList className="nav__icon" />Edu/Exp
+                            </a>
+                        </li>
+                        
                         
                     </ul>
                     <HiX className="nav__close" onClick={() => showMenu(!Toggle)} />

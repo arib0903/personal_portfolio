@@ -6,27 +6,27 @@ import FrontEnd from './FrontEnd'
 
 const BackendSkills =[
     {title:"Backend Developer"},
-    {name:"Python", level:"Intermediate"},
-    {name:"Java", level:"Intermediate"},
-    {name:"MySQL", level:"Intermediate"},
-    {name:"npm", level:"Basic"},
-    {name:"MongoDB", level:"Basic"},
-    {name:"Git", level:"Intermediate"},
+    {name:"Python"},
+    {name:"Java"},
+    {name:"SQL"},
+    {name:"NPM",},
+    {name:"MongoDB"},
+    {name:"Git"},
 ]
 
 const FrontEndSkills =[
     {title:"Frontend Developer"},
-    {name:"React.js", level:"Intermediate"},
-    {name:"HTML/CSS", level:"Intermediate"},
-    {name:"Flask", level:"Intermediate"},
-    {name:"random", level:"Basic"},
+    {name:"React.js"},
+    {name:"HTML/CSS"},
+    {name:"Flask"},
+    {name:"Plotly.js"},
 ]
 
 const AISkills =[
     {title:"Artificial Intelligence + Machine Learning"},
-    {name:"Numpy", level:"Intermediate"},
-    {name:"Pandas", level:"Intermediate"},
-    {name:"Scikit learn", level:"Intermediate"},
+    {name:"Numpy"},
+    {name:"Pandas"},
+    {name:"Scikit learn"},
 ]
 
 

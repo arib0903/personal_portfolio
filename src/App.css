@@ -121,6 +121,7 @@ img {
 .section__title,
 .section__subtitle {
   text-align: center;
+  color: wheat;
 }
 
 /* LAYOUT */
@@ -146,7 +147,7 @@ img {
 }
 
 .button:hover {
-  background-color: black;
+background-color: #442e2e;
 }
 
 .button__icon {
