@@ -128,7 +128,7 @@ const projectsNav = [
         {
             id: 2,
             image: Project2,
-            description: "Display Covid Data using Python and JavaScript",
+            description: "The application creates a server that gets Covid Vaccine data from the CDC website. Then uses those datas to make certain graphs (barChart,pieGraph,lineGraph)",
             title: "Covid Data Visual",
             category: "Web",
             technologies: [<FaPython/>,<RiJavascriptFill/>,<PiFileSql/>],
@@ -142,7 +142,7 @@ const projectsNav = [
         {
             id: 3,
             image: Expense,
-            description: "React Project that tracked expenses",
+            description: "Expense Tracker is a web application built using react that allows users to track their expenses. It provides an intuitive interface for managing and categorizing expenses, helping users keep track of their spending habits and financial health.",
             title: "Expense Tracker",
             category: "Web",
             technologies: [<FaReact/>,<SiTailwindcss/>, <FaGitSquare/>],

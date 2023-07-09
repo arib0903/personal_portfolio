@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Skills.css"
 import FrontEnd from './FrontEnd'
-import BackEnd from './BackEnd'
 
 
 
@@ -30,8 +29,7 @@ const AISkills =[
     {name:"Scikit learn", level:"Intermediate"},
 ]
 
-const t = "Frontend Developer"
-const t2 = "Backend Developer"
+
 function Skills() {
   return (
     <section className="skills section" id="skills">
