@@ -20,12 +20,12 @@ function App() {
       body.style.backgroundColor = "rgba(1,3, 0, 12)";
       document.getElementById("Header").style.backgroundColor =
         "rgba(1,3, 0, 12)";
-    } else if (scroll >= 600 && scroll < 2250) {
+    } else if (scroll > 600 && scroll < 1850) {
       // yellow
       body.style.backgroundColor = "rgba(120, 117, 110)";
       document.getElementById("Header").style.backgroundColor =
         "rgba(120, 117, 110)";
-    } else if (scroll >= 2250 && scroll < 2300) {
+    } else if (scroll > 1850 && scroll < 2300) {
       // blue
       body.style.backgroundColor = "rgba(1,3, 0, 12)";
       document.getElementById("Header").style.backgroundColor =
