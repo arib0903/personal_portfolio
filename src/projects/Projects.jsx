@@ -4,12 +4,14 @@ import ProjectItems from "./ProjectItems";
 import Modal from "./Modal";
 import{FaReact,FaPython,FaUnity,FaGitSquare} from 'react-icons/fa';
 import {RiJavascriptFill} from 'react-icons/ri';
-import {SiScala,SiTailwindcss} from 'react-icons/si';
+import {SiScala,SiTailwindcss,SiNumpy,SiPandas} from 'react-icons/si';
 import {PiFileSql} from 'react-icons/pi';
 import EnemyGame from '../assets/EnemyGame.png';
 import Project2 from '../assets/work1.jpg';
 import Expense from '../assets/Expense.png';
 import SpaceX from '../assets/SpaceX.png';
+import Brain from '../assets/brain.jpg';
+import Movie from '../assets/movie4.jpg';
 
 
 
@@ -105,6 +107,9 @@ const projectsNav = [
         {
             name: "Game",
         },
+         {
+            name: "Machine Learning",
+        },
         // {
         //     name: "C",
         // },
@@ -112,8 +117,36 @@ const projectsNav = [
 
     useEffect(() => {
        const projectsData = [
-       {
+         {
             id: 1,
+            image: Brain,
+            title: "Airbnb Price Prediction",
+            description: "A Machine Learning Model that analyzed an Airbnb dataset to predict the prices of Airbnb listings, using Pandas, Numpy, and Scikit-Learn. Implemented Random Forest, Gradient Boosting, and Stacking algorithms to train the model. The project followed a structured plan to preprocess data, implement models, and evaluate their performance.",
+            category: "Machine Learning",
+            technologies: [<FaPython/>,<SiNumpy/>,<FaGitSquare/>,<SiPandas/>, ],
+            Code: "https://github.com/arib0903/MachineLearning-PricePrediction",
+            Demo: "",
+            hasDemo:false,
+            hasCode:true
+
+        },
+        {
+            id: 2,
+            image: Movie,
+            description: "Movie tracker is a React web application that uses the OMDB API to search for movies and display information about them. It also allows users to add movies to their watchlist and mark them as watched.",
+            title: "MovieMate",
+            category: "Web",
+            technologies: [<FaReact/>, <FaGitSquare/>],
+            Code: "https://github.com/arib0903/movie_tracker",
+            Demo: "https://moviemate1.netlify.app/",
+            hasDemo:true,
+            hasCode:true
+
+
+        },
+
+       {
+            id: 3,
             image: EnemyGame,
             description: "Recreate a PacMan type arcade game where the player moves on towards the opposing enemy and try to shoot at them. The enemy will advance onto the player if nearby, and will shoot at the player. The enemies will also shoot at each other if they are near eachother.",
             title: "AI Game",
@@ -126,7 +159,7 @@ const projectsNav = [
 
         },
         {
-            id: 2,
+            id: 4,
             image: Project2,
             description: "The application creates a server that gets Covid Vaccine data from the CDC website. Then uses those datas to make certain graphs (barChart,pieGraph,lineGraph)",
             title: "Covid Data Visual",
@@ -139,8 +172,9 @@ const projectsNav = [
 
 
         },
+        
         {
-            id: 3,
+            id: 5,
             image: Expense,
             description: "Expense Tracker is a web application built using react that allows users to track their expenses. It provides an intuitive interface for managing and categorizing expenses, helping users keep track of their spending habits and financial health.",
             title: "Expense Tracker",
@@ -154,7 +188,7 @@ const projectsNav = [
 
         },
         {
-            id: 4,
+            id: 6,
             image: SpaceX,
             description: "A Unity game that is a 2D platformer where the player is a rocket and has to avoid obstacles",
             title: "SpaceX",
