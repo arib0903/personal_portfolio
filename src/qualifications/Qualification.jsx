@@ -28,9 +28,9 @@ const qualificationsData = [
     category: "Experience",
     items: [
       {
-        title: "Google Participant",
-        subtitle: "Google Software Engineering Program",
-        calendar: "2023-Present",
+        title: "Software Engineering Intern",
+        subtitle: "Cox Automotive",
+        calendar: "2023",
       },
       {
         title: "AI/ML Research",

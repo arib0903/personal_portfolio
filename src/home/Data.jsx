@@ -8,10 +8,10 @@ const Data = () => {
             
         </h1>
         <h3 className="home__subtitle" style={{color:'wheat'}}>
-            Full-Stack developer
+            Full-Stack & Data Science developer
         </h3>
         <p className="home__description" style={{fontSize:'20px'}}>
-            Full-Stack developer with a passion to innovate and discover creative solutions.
+            Full-Stack and Data Science developer with a passion to innovate and discover creative solutions.
         </p>
 
         <a href="#portfolio" className="button button--flex">

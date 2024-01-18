@@ -15,7 +15,7 @@ const About = () => {
                 <Info />
                <p className="about__description code-ide">
                     <code>
-                        Passionate full-stack developer and UI/UX enthusiast with expertise in languages, such as <b>JavaScript, React, Python, and Java. </b>
+                        Passionate full-stack developer and Data Science enthusiast with expertise in languages, such as <b>JavaScript, React, Python, and Java. </b>
                         <br /><br />
 Since childhood, programming has been my true passion, continuously fueling my curiosity and love for technology. My ultimate goal is to contribute to a society where technology serves as a catalyst for improving people's lives and creating a positive impact. With a genuine drive and a diverse skill set, I am dedicated to leveraging my expertise to develop innovative solutions that enhance the quality of life for individuals and communities.                     </code>
                     </p>
