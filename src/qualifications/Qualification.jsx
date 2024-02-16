@@ -28,11 +28,6 @@ const qualificationsData = [
     category: "Experience",
     items: [
       {
-        title: "Software Engineering Intern",
-        subtitle: "Cox Automotive",
-        calendar: "2023",
-      },
-      {
         title: "AI/ML Research",
         subtitle: "Cornell Tech",
         calendar: "2023-2024",
